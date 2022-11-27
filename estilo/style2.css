@@ -1,20 +1,18 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-div {
-    display: inline-block;
+table {
+    border-collapse: collapse;
 }
 
-div.primeira {
-    background-color: blue;
-    width: 49vw;
-    height: 99vh;
+tr {
+
 }
 
-div.segunda {
-    background-color: red;
-    width: 49vw;
-    height: 99vh;
+th {
+    border: 1px solid black;
 }
