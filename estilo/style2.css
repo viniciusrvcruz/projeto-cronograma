@@ -5,8 +5,26 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root {
+    --cor01: #41A0DB;
+    --cor02: #87BFE1;
+    --cor03: #143244;
+    --cor04: #D9BBA0;
+}
+
+body {
+    background-color: var(--cor01);
+    padding-top: 15px;
+}
+
 table {
+    margin: auto;
     border-collapse: collapse;
+    text-align: center;
+    background-color: var(--cor04);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 tr {
@@ -15,4 +33,10 @@ tr {
 
 th {
     border: 1px solid black;
+    padding: 10px;   
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;   
 }
