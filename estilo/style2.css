@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: inline-block;
+}
+
+div.primeira {
+    background-color: blue;
+    width: 49vw;
+    height: 99vh;
+}
+
+div.segunda {
+    background-color: red;
+    width: 49vw;
+    height: 99vh;
+}
