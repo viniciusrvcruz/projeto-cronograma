@@ -58,5 +58,6 @@ td {
 a img {
     border-radius: 50%;
     width: 70px;
-    transform: translate(70%, 200%);
+    transform: translate(70%, 100%);
+    position: fixed;
 }
