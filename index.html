@@ -12,9 +12,19 @@
         <h1>Cronograma</h1>
         <p>Cantem-lhe uma nova canção; toquem com habilidade ao aclamá-lo. Salmos 33:3</p>
     </header>
-    <nav>
+    <nav onclick="clickMenu()">
         <img src="imagens/menu.png" alt="menu">
     </nav>
+    <menu id="itens">
+        <ul>
+            <a href="#">
+                <li>Repertório</li>
+            </a>
+            <a href="#">
+                <li>Inicio</li>
+            </a>
+        </ul>
+    </menu>
     <main>
         <section>
         <a href="https://relogioonline.com.br/cronometro/">Cronômetro</a>
@@ -24,5 +34,17 @@
         <a href="https://www.youtube.com/playlist?list=PLwP6Qt8wHW0b_7UZ3SVB_Ej2TIPrmy-EE">Backing track</a>
         </section>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
